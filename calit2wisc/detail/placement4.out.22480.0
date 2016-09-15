@@ -1,0 +1,54 @@
+CondorChirp out = ['/opt/condor/libexec\n']
+CondorChirp err = []
+Input file is: /home/idpl/1G
+Output file is: 1G
+CondorChirp out = ['/opt/condor/libexec\n']
+CondorChirp err = []
+CondorChirp out = ['/opt/condor/libexec\n']
+CondorChirp err = []
+CondorChirp out = ['/opt/condor/libexec\n']
+CondorChirp err = []
+CondorChirp out = ['/opt/condor/libexec\n']
+CondorChirp err = []
+CondorChirp out = ['/opt/condor/libexec\n']
+CondorChirp err = []
+flashio-osg.calit2.optiputer.net(2773354): ------------------------------------------------------------
+flashio-osg.calit2.optiputer.net(2773354): Client connecting to komatsu.chtc.wisc.edu, TCP port 5001
+flashio-osg.calit2.optiputer.net(2773354): TCP window size: 92.6 KByte (default)
+flashio-osg.calit2.optiputer.net(2773354): ------------------------------------------------------------
+flashio-osg.calit2.optiputer.net(2773354): [  3] local 67.58.50.61 port 55848 connected with 128.104.153.60 port 5001
+flashio-osg.calit2.optiputer.net(2773354): [ ID] Interval       Transfer     Bandwidth
+flashio-osg.calit2.optiputer.net(2773354): [  3]  0.0-20.0 sec  279680 KBytes  114501 Kbits/sec
+client:  ['-jar', 'fdt.jar', '-noupdates', '-p', '5001', '-c', 'komatsu.chtc.wisc.edu', '/home/idpl/1G', '-d', '.']
+setting timed cmd input to be a file type
+flashio-osg.calit2.optiputer.net(2773374): 
+flashio-osg.calit2.optiputer.net(2773374): 
+flashio-osg.calit2.optiputer.net(2773374): FDT [ 0.20.0-201407152021 ] STARTED ... 
+flashio-osg.calit2.optiputer.net(2773374): 
+flashio-osg.calit2.optiputer.net(2773374): 
+flashio-osg.calit2.optiputer.net(2773374): FDT uses *blocking* I/O mode.
+flashio-osg.calit2.optiputer.net(2773374): 31/12 15:55:49	Net Out: 325.495 Mb/s	Avg: 325.495 Mb/s
+flashio-osg.calit2.optiputer.net(2773374): 31/12 15:55:54	Net Out: 278.405 Mb/s	Avg: 301.946 Mb/s
+flashio-osg.calit2.optiputer.net(2773374): 31/12 15:55:59	Net Out: 328.851 Mb/s	Avg: 310.892 Mb/s
+flashio-osg.calit2.optiputer.net(2773374): 31/12 15:56:04	Net Out: 333.884 Mb/s	Avg: 316.639 Mb/s 82.60% ( 04s )
+flashio-osg.calit2.optiputer.net(2773374): 31/12 15:56:09	Net Out: 291.939 Mb/s	Avg: 311.687 Mb/s 100.00% ( 00s )
+flashio-osg.calit2.optiputer.net(2773374): 
+flashio-osg.calit2.optiputer.net(2773374): 
+flashio-osg.calit2.optiputer.net(2773374): FDTReaderSession ( b6103ca0-4b4e-4669-873a-6ac9b5e1475c ) final stats:
+flashio-osg.calit2.optiputer.net(2773374):  Started: Thu Dec 31 15:55:39 PST 2015
+flashio-osg.calit2.optiputer.net(2773374):  Ended:   Thu Dec 31 15:56:14 PST 2015
+flashio-osg.calit2.optiputer.net(2773374):  Transfer period:   34s
+flashio-osg.calit2.optiputer.net(2773374):  TotalBytes: 1048576000
+flashio-osg.calit2.optiputer.net(2773374):  TotalNetworkBytes: 1048576000
+flashio-osg.calit2.optiputer.net(2773374):  Exit Status: OK
+flashio-osg.calit2.optiputer.net(2773374): 
+flashio-osg.calit2.optiputer.net(2773374):  [ Thu Dec 31 15:56:15 PST 2015 ] - GracefulStopper hook started ... Waiting for the cleanup to finish
+flashio-osg.calit2.optiputer.net(2773374):  [ Thu Dec 31 15:56:15 PST 2015 ]  - GracefulStopper hook finished!
+flashio-osg.calit2.optiputer.net(2773374): 
+flashio-osg.calit2.optiputer.net(2773374):  [ Thu Dec 31 15:56:15 PST 2015 ]  FDT Session finished OK.
+flashio-osg.calit2.optiputer.net(2773374): 
+key is ''ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAq3WJenRroAxwc5ciizNFLZ4EgO1IHtijfdBHo9AsRn+tSjW6TYQjGNXo9uFM+0ON/4SmljIqduGpFVzP5Qu/SpgOmbPTpngfgVDih9MHGiTcUZfCbD4ZmmxWN1+f2UNNwn7FgaoGQNHfhw0Q6zoAIkbn4fCaTvxp5jsQv6QZxYoIDvAlIaPfzqQvsXAFHNL5fYFmq2zy1HACcxCY1HqH795uggo+ufCPTto36WHtw5s5wB0orRJ330SLfYLUn+hLJiW0vtyU7AzCn0gSCI4T1sDvALR5wuwjX9VlgJWHOOKF05Glck63EmHWupufEpqIbgxT/i2WI9XfQonj+f5Vzw== nobody@flashio-osg.calit2.optiputer.net''
+client:  ['-o', 'StrictHostKeyChecking=no', '-i', '/var/opt/condor/execute/dir_2773301/tmpvv2F7D', '-P', '5001', '/home/idpl/1G', "slot4@komatsu.chtc.wisc.edu:'/var/lib/condor/execute/dir_985062/1G'"]
+setting timed cmd input to be a file type
+setting timed cmd input to be a file type
+Client had Exception: IDPLException.CondorChirpGetException(netcatMD5):

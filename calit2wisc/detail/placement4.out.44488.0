@@ -1,0 +1,49 @@
+CondorChirp out = ['/opt/condor/libexec\n']
+CondorChirp err = []
+Input file is: /home/idpl/1G
+Output file is: 1G
+CondorChirp out = ['/opt/condor/libexec\n']
+CondorChirp err = []
+CondorChirp out = ['/opt/condor/libexec\n']
+CondorChirp err = []
+CondorChirp out = ['/opt/condor/libexec\n']
+CondorChirp err = []
+CondorChirp out = ['/opt/condor/libexec\n']
+CondorChirp err = []
+CondorChirp out = ['/opt/condor/libexec\n']
+CondorChirp err = []
+flashio-osg.calit2.optiputer.net(2267537): ------------------------------------------------------------
+flashio-osg.calit2.optiputer.net(2267537): Client connecting to komatsu.chtc.wisc.edu, TCP port 5001
+flashio-osg.calit2.optiputer.net(2267537): TCP window size: 92.6 KByte (default)
+flashio-osg.calit2.optiputer.net(2267537): ------------------------------------------------------------
+flashio-osg.calit2.optiputer.net(2267537): [  3] local 67.58.50.61 port 23498 connected with 128.104.153.60 port 5001
+flashio-osg.calit2.optiputer.net(2267537): [ ID] Interval       Transfer     Bandwidth
+flashio-osg.calit2.optiputer.net(2267537): [  3]  0.0-20.0 sec  17481216 KBytes  7149025 Kbits/sec
+client:  ['-jar', 'fdt.jar', '-noupdates', '-p', '5001', '-c', 'komatsu.chtc.wisc.edu', '/home/idpl/1G', '-d', '.']
+setting timed cmd input to be a file type
+flashio-osg.calit2.optiputer.net(2267591): 
+flashio-osg.calit2.optiputer.net(2267591): 
+flashio-osg.calit2.optiputer.net(2267591): FDT [ 0.20.0-201407152021 ] STARTED ... 
+flashio-osg.calit2.optiputer.net(2267591): 
+flashio-osg.calit2.optiputer.net(2267591): 
+flashio-osg.calit2.optiputer.net(2267591): FDT uses *blocking* I/O mode.
+flashio-osg.calit2.optiputer.net(2267591): 
+flashio-osg.calit2.optiputer.net(2267591): 
+flashio-osg.calit2.optiputer.net(2267591): FDTReaderSession ( e4625797-2672-4809-9573-a9bae122f6d3 ) final stats:
+flashio-osg.calit2.optiputer.net(2267591):  Started: Wed Jun 08 04:55:40 PDT 2016
+flashio-osg.calit2.optiputer.net(2267591):  Ended:   Wed Jun 08 04:55:49 PDT 2016
+flashio-osg.calit2.optiputer.net(2267591):  Transfer period:   09s
+flashio-osg.calit2.optiputer.net(2267591):  TotalBytes: 1048576000
+flashio-osg.calit2.optiputer.net(2267591):  TotalNetworkBytes: 1048576000
+flashio-osg.calit2.optiputer.net(2267591):  Exit Status: OK
+flashio-osg.calit2.optiputer.net(2267591): 
+flashio-osg.calit2.optiputer.net(2267591):  [ Wed Jun 08 04:55:50 PDT 2016 ] - GracefulStopper hook started ... Waiting for the cleanup to finish
+flashio-osg.calit2.optiputer.net(2267591):  [ Wed Jun 08 04:55:50 PDT 2016 ]  - GracefulStopper hook finished!
+flashio-osg.calit2.optiputer.net(2267591): 
+flashio-osg.calit2.optiputer.net(2267591):  [ Wed Jun 08 04:55:50 PDT 2016 ]  FDT Session finished OK.
+flashio-osg.calit2.optiputer.net(2267591): 
+key is ''ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAzBgnB/WkW9irCU3F/rIMrpm1xcV/RcbCt+aV/7MCVSu28PaY51SEyngdbAv94pYEZNuRnb3xGVLHFUQ4afmYw4g1ZRGWo0YhSbtVnr3XfWIq0XPIlgztuXqSgJJqiBUx6OexHd33BGgTe5q1H366+cGFy8se5Td5/x9sGk+at+iX1hoZ89Us2B8PROPmJTRY1Rdbj6dF4W0etCh2PF7LmcW1LqBZ3qRaJcUeoHWp2ENIiSsDMPECVY8mqvnHjqJEz4aax2N6ekQLRcuyDlTE1b4RI5195waEWbmrvB5wFFe0GgtbyLhUQvsxbfcJ6X8wzNyVm62yiqDGRpFPWAE/9w== nobody@flashio-osg.calit2.optiputer.net''
+client:  ['-o', 'StrictHostKeyChecking=no', '-i', '/var/opt/condor/execute/dir_2266662/tmpBf81nx', '-P', '5001', '/home/idpl/1G', "slot4@komatsu.chtc.wisc.edu:'/var/lib/condor/execute/dir_3246458/1G'"]
+setting timed cmd input to be a file type
+setting timed cmd input to be a file type
+Client had Exception: IDPLException.CondorChirpGetException(netcatMD5):

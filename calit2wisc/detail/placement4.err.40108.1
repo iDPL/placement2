@@ -1,0 +1,45 @@
+2923707#: May 07, 2016 4:56:04 AM lia.util.net.common.Config <init>
+2923707#: INFO: Using lia.util.net.copy.PosixFSFileChannelProviderFactory as FileChannelProviderFactory
+2923707#: May 07, 2016 4:56:04 AM lia.util.net.common.Config <init>
+2923707#: INFO: FDT started in server mode
+2923707#: May 07, 2016 4:56:04 AM lia.util.net.copy.FDTServer doWork
+2923707#: INFO: FDTServer start listening on port: 5001
+2923707#: May 07, 2016 4:56:10 AM lia.util.net.copy.transport.ControlChannel initStreams
+2923707#: INFO: NEW CONTROL stream for f0fbed17-bdb3-497d-bc4c-a1470ea45eed initialized 
+2923707#: May 07, 2016 4:56:10 AM lia.util.net.copy.transport.ControlChannel initStreams
+2923707#: INFO: App KeepAlive [ 120 second(s) ] enabled for control channel. Local FDTVersion [0.20.0-2014-07-15], Remote FDTVersion [0.20.0-2014-07-15]
+2923707#: May 07, 2016 4:56:10 AM lia.util.net.copy.transport.ControlChannel$ControlChannelPingerTask <init>
+2923707#: INFO: [ ControlChannelPingerTask ] initialized
+2923707#: May 07, 2016 4:56:10 AM lia.util.net.copy.transport.SpeedLimitManager addLimiter
+2923707#: INFO:  Adding SpeedLimiterTask for lia.util.net.copy.transport.TCPSessionReader@62f03cb9 delay: 300 ms
+2923707#: May 07, 2016 4:56:12 AM lia.util.net.copy.disk.DiskWriterTask run
+2923707#: INFO: DiskWriterTask [ partitionID=17539, writerID= 0, tid=10 ] since: Sat May 07 04:56:12 EDT 2016 STARTED. Active = true
+2923707#: May 07, 2016 4:56:20 AM lia.util.net.copy.transport.ControlChannel run
+2923707#: INFO:  ControlThread for ( f0fbed17-bdb3-497d-bc4c-a1470ea45eed ) /67.58.50.61:10928 FINISHED
+2923707#: May 07, 2016 4:56:21 AM lia.util.net.common.Utils createOrGetRWFile
+2923707#: WARNING: Cannot create /var/lib/condor/execute/slot4/.fdt/update.properties
+2923707#: java.io.IOException: No such file or directory
+2923707#: 	at java.io.UnixFileSystem.createFileExclusively(Native Method)
+2923707#: 	at java.io.File.createNewFile(File.java:1006)
+2923707#: 	at lia.util.net.common.Utils.createOrGetRWFile(Utils.java:796)
+2923707#: 	at lia.util.net.common.Utils.updateTotalContor(Utils.java:898)
+2923707#: 	at lia.util.net.common.Utils.updateTotalWriteContor(Utils.java:1021)
+2923707#: 	at lia.util.net.copy.FDTWriterSession.finalCleanup(FDTWriterSession.java:157)
+2923707#: 	at lia.util.net.copy.FDTWriterSession.access$000(FDTWriterSession.java:40)
+2923707#: 	at lia.util.net.copy.FDTWriterSession$1.run(FDTWriterSession.java:676)
+2923707#: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+2923707#: 	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+2923707#: 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:178)
+2923707#: 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:292)
+2923707#: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+2923707#: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+2923707#: 	at java.lang.Thread.run(Thread.java:745)
+2923707#: 
+2923707#: May 07, 2016 4:56:21 AM lia.util.net.copy.FDTWriterSession doPostProcessing
+2923707#: INFO: [ FDTWriterSession ] Post Processing started
+2923707#: May 07, 2016 4:56:21 AM lia.util.net.copy.FDTWriterSession doPostProcessing
+2923707#: INFO: [ FDTWriterSession ] No post processing filters defined/processed.
+2923707#: May 07, 2016 4:56:21 AM lia.util.net.copy.FDTServer doWork
+2923707#: INFO: FDTServer will finish. No more sessions to serve.
+2923707#: May 07, 2016 4:56:21 AM lia.util.net.copy.FDTServer doWork
+2923707#: INFO: [FDTServer] main loop FINISHED!

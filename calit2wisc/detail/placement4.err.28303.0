@@ -1,0 +1,43 @@
+2888996#: Feb 08, 2016 3:55:39 PM lia.util.net.common.Config <init>
+2888996#: INFO: Using lia.util.net.copy.PosixFSFileChannelProviderFactory as FileChannelProviderFactory
+2888996#: Feb 08, 2016 3:55:39 PM lia.util.net.common.Config <init>
+2888996#: INFO: FDT started in client mode
+2888996#: Feb 08, 2016 3:55:40 PM lia.util.net.copy.transport.ControlChannel initStreams
+2888996#: INFO: NEW CONTROL stream for a73c4e1a-65d3-4bc0-abfd-67b18818c278 initialized 
+2888996#: Feb 08, 2016 3:55:40 PM lia.util.net.copy.transport.ControlChannel initStreams
+2888996#: INFO: App KeepAlive [ 120 second(s) ] enabled for control channel. Local FDTVersion [0.20.0-2014-07-15], Remote FDTVersion [0.20.0-2014-07-15]
+2888996#: Feb 08, 2016 3:55:40 PM lia.util.net.copy.transport.ControlChannel$ControlChannelPingerTask <init>
+2888996#: INFO: [ ControlChannelPingerTask ] initialized
+2888996#: Feb 08, 2016 3:55:40 PM lia.util.net.copy.FDTReaderSession internalInit
+2888996#: INFO: [ FDTReaderSession ] No pre processing filters defined/processed.
+2888996#: Feb 08, 2016 3:55:41 PM lia.util.net.copy.transport.SpeedLimitManager addLimiter
+2888996#: INFO:  Adding SpeedLimiterTask for lia.util.net.copy.transport.TCPSessionWriter@5073ba17 delay: 300 ms
+2888996#: Feb 08, 2016 3:55:41 PM lia.util.net.copy.FDTReaderSession startReading
+2888996#: INFO:  Started DiskReaderTasks for the following partions [ 2051 ] for FDTSession: a73c4e1a-65d3-4bc0-abfd-67b18818c278
+2888996#: Feb 08, 2016 3:55:41 PM lia.util.net.copy.transport.TCPTransportProvider tryToConnect
+2888996#: INFO: Requested window size -1. Using window size: 47400
+2888996#: Feb 08, 2016 3:56:01 PM lia.util.net.copy.FDTReaderSession handleEndFDTSession
+2888996#: INFO: [ FDTReaderSession ] Remote FDTWriterSession for session [ a73c4e1a-65d3-4bc0-abfd-67b18818c278 ] finished OK!
+2888996#: Feb 08, 2016 3:56:04 PM lia.util.net.common.Utils createOrGetRWFile
+2888996#: WARNING: Cannot create /.fdt/update.properties
+2888996#: java.io.IOException: No such file or directory
+2888996#: 	at java.io.UnixFileSystem.createFileExclusively(Native Method)
+2888996#: 	at java.io.File.createNewFile(File.java:1006)
+2888996#: 	at lia.util.net.common.Utils.createOrGetRWFile(Utils.java:796)
+2888996#: 	at lia.util.net.common.Utils.updateTotalContor(Utils.java:898)
+2888996#: 	at lia.util.net.common.Utils.updateTotalReadContor(Utils.java:1017)
+2888996#: 	at lia.util.net.copy.FDTReaderSession.finalCleanup(FDTReaderSession.java:625)
+2888996#: 	at lia.util.net.copy.FDTReaderSession.access$000(FDTReaderSession.java:46)
+2888996#: 	at lia.util.net.copy.FDTReaderSession$2.run(FDTReaderSession.java:763)
+2888996#: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+2888996#: 	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+2888996#: 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:178)
+2888996#: 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:292)
+2888996#: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+2888996#: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+2888996#: 	at java.lang.Thread.run(Thread.java:744)
+2888996#: 
+2888996#: Feb 08, 2016 3:56:04 PM lia.util.net.copy.FDTReaderSession doPostProcessing
+2888996#: INFO: [ FDTReaderSession ] Post Processing started
+2888996#: Feb 08, 2016 3:56:04 PM lia.util.net.copy.FDTReaderSession doPostProcessing
+2888996#: INFO: [ FDTReaderSession ] No post processing filters defined/processed.

@@ -1,0 +1,154 @@
+887391#: May 18, 2016 2:55:34 AM lia.util.net.common.Config <init>
+887391#: INFO: Using lia.util.net.copy.PosixFSFileChannelProviderFactory as FileChannelProviderFactory
+887391#: May 18, 2016 2:55:34 AM lia.util.net.common.Config <init>
+887391#: INFO: FDT started in server mode
+887391#: May 18, 2016 2:55:34 AM lia.util.net.copy.FDTServer doWork
+887391#: INFO: FDTServer start listening on port: 5001
+887391#: May 18, 2016 2:55:40 AM lia.util.net.copy.transport.ControlChannel initStreams
+887391#: INFO: NEW CONTROL stream for 57d5edbb-6008-4fb1-9559-68d6c1244b91 initialized 
+887391#: May 18, 2016 2:55:40 AM lia.util.net.copy.transport.ControlChannel initStreams
+887391#: INFO: App KeepAlive [ 120 second(s) ] enabled for control channel. Local FDTVersion [0.20.0-2014-07-15], Remote FDTVersion [0.20.0-2014-07-15]
+887391#: May 18, 2016 2:55:40 AM lia.util.net.copy.transport.ControlChannel$ControlChannelPingerTask <init>
+887391#: INFO: [ ControlChannelPingerTask ] initialized
+887391#: May 18, 2016 2:55:40 AM lia.util.net.copy.transport.SpeedLimitManager addLimiter
+887391#: INFO:  Adding SpeedLimiterTask for lia.util.net.copy.transport.TCPSessionReader@1d64d42f delay: 300 ms
+887391#: May 18, 2016 2:55:42 AM lia.util.net.copy.disk.DiskWriterTask run
+887391#: INFO: DiskWriterTask [ partitionID=17539, writerID= 0, tid=10 ] since: Wed May 18 02:55:42 EDT 2016 STARTED. Active = true
+887391#: May 18, 2016 2:55:51 AM lia.util.net.copy.transport.ControlChannel run
+887391#: INFO:  ControlThread for ( 57d5edbb-6008-4fb1-9559-68d6c1244b91 ) /67.58.50.61:27900 FINISHED
+887391#: May 18, 2016 2:55:51 AM lia.util.net.common.Utils createOrGetRWFile
+887391#: WARNING: Cannot create /var/lib/condor/execute/slot4/.fdt/update.properties
+887391#: java.io.IOException: No such file or directory
+887391#: 	at java.io.UnixFileSystem.createFileExclusively(Native Method)
+887391#: 	at java.io.File.createNewFile(File.java:1006)
+887391#: 	at lia.util.net.common.Utils.createOrGetRWFile(Utils.java:796)
+887391#: 	at lia.util.net.common.Utils.updateTotalContor(Utils.java:898)
+887391#: 	at lia.util.net.common.Utils.updateTotalWriteContor(Utils.java:1021)
+887391#: 	at lia.util.net.copy.FDTWriterSession.finalCleanup(FDTWriterSession.java:157)
+887391#: 	at lia.util.net.copy.FDTWriterSession.access$000(FDTWriterSession.java:40)
+887391#: 	at lia.util.net.copy.FDTWriterSession$1.run(FDTWriterSession.java:676)
+887391#: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+887391#: 	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+887391#: 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:178)
+887391#: 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:292)
+887391#: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+887391#: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+887391#: 	at java.lang.Thread.run(Thread.java:745)
+887391#: 
+887391#: May 18, 2016 2:55:51 AM lia.util.net.copy.FDTWriterSession doPostProcessing
+887391#: INFO: [ FDTWriterSession ] Post Processing started
+887391#: May 18, 2016 2:55:51 AM lia.util.net.copy.FDTWriterSession doPostProcessing
+887391#: INFO: [ FDTWriterSession ] No post processing filters defined/processed.
+887391#: May 18, 2016 2:55:52 AM lia.util.net.copy.FDTServer doWork
+887391#: INFO: FDTServer will finish. No more sessions to serve.
+887391#: May 18, 2016 2:55:52 AM lia.util.net.copy.FDTServer doWork
+887391#: INFO: [FDTServer] main loop FINISHED!
+887528#: debug1: sshd version OpenSSH_5.3p1
+887528#: debug1: read PEM private key done: type RSA
+887528#: debug1: private host key: #0 type 1 RSA
+887528#: Disabling protocol version 1. Could not load host key
+887528#: debug1: setgroups() failed: Operation not permitted
+887528#: debug1: rexec_argv[0]='/usr/sbin/sshd'
+887528#: debug1: rexec_argv[1]='-o'
+887528#: debug1: rexec_argv[2]='AuthorizedKeysFile=/var/lib/condor/execute/dir_887299/tmp9jjB1A'
+887528#: debug1: rexec_argv[3]='-o'
+887528#: debug1: rexec_argv[4]='StrictModes=no'
+887528#: debug1: rexec_argv[5]='-o'
+887528#: debug1: rexec_argv[6]='UsePam=no'
+887528#: debug1: rexec_argv[7]='-o'
+887528#: debug1: rexec_argv[8]='PermitRootLogin=no'
+887528#: debug1: rexec_argv[9]='-o'
+887528#: debug1: rexec_argv[10]='PasswordAuthentication=no'
+887528#: debug1: rexec_argv[11]='-o'
+887528#: debug1: rexec_argv[12]='PidFile=/dev/null'
+887528#: debug1: rexec_argv[13]='-h'
+887528#: debug1: rexec_argv[14]='/var/lib/condor/execute/dir_887299/tmp0NkUP8'
+887528#: debug1: rexec_argv[15]='-D'
+887528#: debug1: rexec_argv[16]='-e'
+887528#: debug1: rexec_argv[17]='-f'
+887528#: debug1: rexec_argv[18]='/dev/null'
+887528#: debug1: rexec_argv[19]='-d'
+887528#: debug1: rexec_argv[20]='-p'
+887528#: debug1: rexec_argv[21]='5001'
+887528#: Set /proc/self/oom_score_adj from 800 to -1000
+887528#: debug1: Bind to port 5001 on 0.0.0.0.
+887528#: Server listening on 0.0.0.0 port 5001.
+887528#: debug1: Bind to port 5001 on ::.
+887528#: Server listening on :: port 5001.
+887528#: debug1: Server will not fork when running in debugging mode.
+887528#: debug1: rexec start in 5 out 5 newsock 5 pipe -1 sock 8
+887528#: debug1: sshd version OpenSSH_5.3p1
+887528#: debug1: read PEM private key done: type RSA
+887528#: debug1: private host key: #0 type 1 RSA
+887528#: Disabling protocol version 1. Could not load host key
+887528#: debug1: setgroups() failed: Operation not permitted
+887528#: debug1: inetd sockets after dupping: 3, 3
+887528#: Connection from 67.58.50.61 port 27941
+887528#: debug1: Client protocol version 2.0; client software version OpenSSH_5.3
+887528#: debug1: match: OpenSSH_5.3 pat OpenSSH*
+887528#: debug1: Enabling compatibility mode for protocol 2.0
+887528#: debug1: Local version string SSH-2.0-OpenSSH_5.3
+887528#: debug1: list_hostkey_types: ssh-rsa
+887528#: debug1: SSH2_MSG_KEXINIT sent
+887528#: debug1: SSH2_MSG_KEXINIT received
+887528#: debug1: kex: client->server aes128-ctr hmac-md5 none
+887528#: debug1: kex: server->client aes128-ctr hmac-md5 none
+887528#: debug1: SSH2_MSG_KEX_DH_GEX_REQUEST received
+887528#: WARNING: /etc/ssh/moduli does not exist, using fixed modulus
+887528#: debug1: SSH2_MSG_KEX_DH_GEX_GROUP sent
+887528#: debug1: expecting SSH2_MSG_KEX_DH_GEX_INIT
+887528#: debug1: SSH2_MSG_KEX_DH_GEX_REPLY sent
+887528#: debug1: SSH2_MSG_NEWKEYS sent
+887528#: debug1: expecting SSH2_MSG_NEWKEYS
+887528#: debug1: SSH2_MSG_NEWKEYS received
+887528#: debug1: KEX done
+887528#: debug1: userauth-request for user slot4 service ssh-connection method none
+887528#: debug1: attempt 0 failures 0
+887528#: debug1: userauth-request for user slot4 service ssh-connection method publickey
+887528#: debug1: attempt 1 failures 0
+887528#: debug1: test whether pkalg/pkblob are acceptable
+887528#: debug1: temporarily_use_uid: 1004/1004 (e=1004/1004)
+887528#: debug1: trying public key file /var/lib/condor/execute/dir_887299/tmp9jjB1A
+887528#: debug1: fd 4 clearing O_NONBLOCK
+887528#: debug1: matching key found: file /var/lib/condor/execute/dir_887299/tmp9jjB1A, line 1
+887528#: Found matching RSA key: 20:53:e7:28:78:ef:c5:19:7a:b1:9b:1d:8c:88:0f:3c
+887528#: debug1: restore_uid: (unprivileged)
+887528#: Postponed publickey for slot4 from 67.58.50.61 port 27941 ssh2
+887528#: debug1: userauth-request for user slot4 service ssh-connection method publickey
+887528#: debug1: attempt 2 failures 0
+887528#: debug1: temporarily_use_uid: 1004/1004 (e=1004/1004)
+887528#: debug1: trying public key file /var/lib/condor/execute/dir_887299/tmp9jjB1A
+887528#: debug1: fd 4 clearing O_NONBLOCK
+887528#: debug1: matching key found: file /var/lib/condor/execute/dir_887299/tmp9jjB1A, line 1
+887528#: Found matching RSA key: 20:53:e7:28:78:ef:c5:19:7a:b1:9b:1d:8c:88:0f:3c
+887528#: debug1: restore_uid: (unprivileged)
+887528#: debug1: ssh_rsa_verify: signature correct
+887528#: Accepted publickey for slot4 from 67.58.50.61 port 27941 ssh2
+887528#: debug1: monitor_child_preauth: slot4 has been authenticated by privileged process
+887528#: debug1: SELinux support disabled
+887528#: User child is on pid 887539
+887528#: debug1: Entering interactive session for SSH2.
+887528#: debug1: server_init_dispatch_20
+887528#: debug1: server_input_channel_open: ctype session rchan 0 win 2097152 max 32768
+887528#: debug1: input_session_request
+887528#: debug1: channel 0: new [server-session]
+887528#: debug1: session_new: session 0
+887528#: debug1: session_open: channel 0
+887528#: debug1: session_open: session 0: link with channel 0
+887528#: debug1: server_input_channel_open: confirm session
+887528#: debug1: server_input_global_request: rtype no-more-sessions@openssh.com want_reply 0
+887528#: debug1: server_input_channel_req: channel 0 request exec reply 1
+887528#: debug1: session_by_channel: session 0 channel 0
+887528#: debug1: session_input_channel_req: session 0 req exec
+887528#: debug1: session_new: session 0
+887528#: debug1: Received SIGCHLD.
+887528#: debug1: session_by_pid: pid 887540
+887528#: debug1: session_exit_message: session 0 channel 0 pid 887540
+887528#: debug1: session_exit_message: release channel 0
+887528#: debug1: session_by_channel: session 0 channel 0
+887528#: debug1: session_close_by_channel: channel 0 child 0
+887528#: debug1: session_close: session 0 pid 0
+887528#: debug1: channel 0: free: server-session, nchannels 1
+887528#: Received disconnect from 67.58.50.61: 11: disconnected by user
+887528#: debug1: do_cleanup
+887528#: debug1: do_cleanup

@@ -1,0 +1,55 @@
+60807#: Jan 18, 2016 1:55:40 AM lia.util.net.common.Config <init>
+60807#: INFO: Using lia.util.net.copy.PosixFSFileChannelProviderFactory as FileChannelProviderFactory
+60807#: Jan 18, 2016 1:55:40 AM lia.util.net.common.Config <init>
+60807#: INFO: FDT started in client mode
+60807#: Jan 18, 2016 1:55:40 AM lia.util.net.copy.transport.ControlChannel initStreams
+60807#: INFO: NEW CONTROL stream for 9ece44c0-1324-4d9c-811c-0066118666aa initialized 
+60807#: Jan 18, 2016 1:55:40 AM lia.util.net.copy.transport.ControlChannel initStreams
+60807#: INFO: App KeepAlive [ 120 second(s) ] enabled for control channel. Local FDTVersion [0.20.0-2014-07-15], Remote FDTVersion [0.20.0-2014-07-15]
+60807#: Jan 18, 2016 1:55:40 AM lia.util.net.copy.transport.ControlChannel$ControlChannelPingerTask <init>
+60807#: INFO: [ ControlChannelPingerTask ] initialized
+60807#: Jan 18, 2016 1:55:40 AM lia.util.net.copy.FDTReaderSession internalInit
+60807#: INFO: [ FDTReaderSession ] No pre processing filters defined/processed.
+60807#: Jan 18, 2016 1:55:41 AM lia.util.net.copy.transport.SpeedLimitManager addLimiter
+60807#: INFO:  Adding SpeedLimiterTask for lia.util.net.copy.transport.TCPSessionWriter@5073ba17 delay: 300 ms
+60807#: Jan 18, 2016 1:55:41 AM lia.util.net.copy.FDTReaderSession startReading
+60807#: INFO:  Started DiskReaderTasks for the following partions [ 2051 ] for FDTSession: 9ece44c0-1324-4d9c-811c-0066118666aa
+60807#: Jan 18, 2016 1:55:42 AM lia.util.net.copy.transport.TCPTransportProvider tryToConnect
+60807#: INFO: Requested window size -1. Using window size: 47400
+60807#: Jan 18, 2016 1:56:00 AM lia.util.net.copy.FDTReaderSession handleEndFDTSession
+60807#: INFO: [ FDTReaderSession ] Remote FDTWriterSession for session [ 9ece44c0-1324-4d9c-811c-0066118666aa ] finished OK!
+60807#: Jan 18, 2016 1:56:03 AM lia.util.net.common.Utils createOrGetRWFile
+60807#: WARNING: Cannot create /.fdt/update.properties
+60807#: java.io.IOException: No such file or directory
+60807#: 	at java.io.UnixFileSystem.createFileExclusively(Native Method)
+60807#: 	at java.io.File.createNewFile(File.java:1006)
+60807#: 	at lia.util.net.common.Utils.createOrGetRWFile(Utils.java:796)
+60807#: 	at lia.util.net.common.Utils.updateTotalContor(Utils.java:898)
+60807#: 	at lia.util.net.common.Utils.updateTotalReadContor(Utils.java:1017)
+60807#: 	at lia.util.net.copy.FDTReaderSession.finalCleanup(FDTReaderSession.java:625)
+60807#: 	at lia.util.net.copy.FDTReaderSession.access$000(FDTReaderSession.java:46)
+60807#: 	at lia.util.net.copy.FDTReaderSession$2.run(FDTReaderSession.java:763)
+60807#: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+60807#: 	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+60807#: 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:178)
+60807#: 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:292)
+60807#: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+60807#: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+60807#: 	at java.lang.Thread.run(Thread.java:744)
+60807#: 
+60807#: Jan 18, 2016 1:56:03 AM lia.util.net.copy.FDTReaderSession doPostProcessing
+60807#: INFO: [ FDTReaderSession ] Post Processing started
+60807#: Jan 18, 2016 1:56:03 AM lia.util.net.copy.FDTReaderSession doPostProcessing
+60807#: INFO: [ FDTReaderSession ] No post processing filters defined/processed.
+60948#: Could not create directory '/.ssh'.
+60948#: Failed to add the host to the list of known hosts (/.ssh/known_hosts).
+60948#: Environment:
+60948#:   USER=slot4
+60948#:   LOGNAME=slot4
+60948#:   HOME=/var/lib/condor/execute/slot4
+60948#:   PATH=/usr/local/bin:/bin:/usr/bin
+60948#:   MAIL=/var/mail/slot4
+60948#:   SHELL=/bin/bash
+60948#:   SSH_CLIENT=67.58.50.61 57592 5001
+60948#:   SSH_CONNECTION=67.58.50.61 57592 128.104.153.60 5001
+60948#: Could not chdir to home directory /var/lib/condor/execute/slot4: No such file or directory

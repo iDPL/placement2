@@ -1,0 +1,56 @@
+3938175#: Jun 20, 2016 11:55:40 PM lia.util.net.common.Config <init>
+3938175#: INFO: Using lia.util.net.copy.PosixFSFileChannelProviderFactory as FileChannelProviderFactory
+3938175#: Jun 20, 2016 11:55:40 PM lia.util.net.common.Config <init>
+3938175#: INFO: FDT started in client mode
+3938175#: Jun 20, 2016 11:55:40 PM lia.util.net.copy.transport.ControlChannel initStreams
+3938175#: INFO: NEW CONTROL stream for 935601ee-cfdc-4066-a140-4b9dd8b7f469 initialized 
+3938175#: Jun 20, 2016 11:55:40 PM lia.util.net.copy.transport.ControlChannel initStreams
+3938175#: INFO: App KeepAlive [ 120 second(s) ] enabled for control channel. Local FDTVersion [0.20.0-2014-07-15], Remote FDTVersion [0.20.0-2014-07-15]
+3938175#: Jun 20, 2016 11:55:40 PM lia.util.net.copy.transport.ControlChannel$ControlChannelPingerTask <init>
+3938175#: INFO: [ ControlChannelPingerTask ] initialized
+3938175#: Jun 20, 2016 11:55:40 PM lia.util.net.copy.FDTReaderSession internalInit
+3938175#: INFO: [ FDTReaderSession ] No pre processing filters defined/processed.
+3938175#: Jun 20, 2016 11:55:41 PM lia.util.net.copy.transport.SpeedLimitManager addLimiter
+3938175#: INFO:  Adding SpeedLimiterTask for lia.util.net.copy.transport.TCPSessionWriter@7e4c974d delay: 300 ms
+3938175#: Jun 20, 2016 11:55:41 PM lia.util.net.copy.FDTReaderSession startReading
+3938175#: INFO:  Started DiskReaderTasks for the following partions [ 2051 ] for FDTSession: 935601ee-cfdc-4066-a140-4b9dd8b7f469
+3938175#: Jun 20, 2016 11:55:42 PM lia.util.net.copy.transport.TCPTransportProvider tryToConnect
+3938175#: INFO: Requested window size -1. Using window size: 47400
+3938175#: Jun 20, 2016 11:57:34 PM lia.util.net.copy.transport.ControlChannel run
+3938175#: INFO:  ControlThread for ( 935601ee-cfdc-4066-a140-4b9dd8b7f469 ) komatsu.chtc.wisc.edu/144.92.20.110:5001 FINISHED
+3938175#: Jun 20, 2016 11:57:34 PM lia.util.net.copy.FDTReaderSession internalClose
+3938175#: INFO: 
+3938175#: The FDTReaderSession ( 935601ee-cfdc-4066-a140-4b9dd8b7f469 ) finished with error(s). downMsg: ControlChannel is down downCause:
+3938175#: java.io.EOFException
+3938175#: 	at java.io.ObjectInputStream$BlockDataInputStream.peekByte(ObjectInputStream.java:2603)
+3938175#: 	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1317)
+3938175#: 	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:369)
+3938175#: 	at lia.util.net.copy.transport.ControlChannel.run(ControlChannel.java:449)
+3938175#: 	at java.lang.Thread.run(Thread.java:701)
+3938175#: Jun 20, 2016 11:57:35 PM lia.util.net.common.Utils createOrGetRWFile
+3938175#: WARNING: Cannot create /.fdt/update.properties
+3938175#: java.io.IOException: No such file or directory
+3938175#: 	at java.io.UnixFileSystem.createFileExclusively(Native Method)
+3938175#: 	at java.io.File.createNewFile(File.java:959)
+3938175#: 	at lia.util.net.common.Utils.createOrGetRWFile(Utils.java:796)
+3938175#: 	at lia.util.net.common.Utils.updateTotalContor(Utils.java:898)
+3938175#: 	at lia.util.net.common.Utils.updateTotalReadContor(Utils.java:1017)
+3938175#: 	at lia.util.net.copy.FDTReaderSession.finalCleanup(FDTReaderSession.java:625)
+3938175#: 	at lia.util.net.copy.FDTReaderSession.internalClose(FDTReaderSession.java:752)
+3938175#: 	at lia.util.net.common.AbstractFDTCloseable$AsynchronousCloseThread.run(AbstractFDTCloseable.java:85)
+3938175#: Jun 20, 2016 11:57:35 PM lia.util.net.copy.FDTReaderSession doPostProcessing
+3938175#: INFO: [ FDTReaderSession ] Post Processing started
+3938175#: Jun 20, 2016 11:57:35 PM lia.util.net.copy.FDTReaderSession doPostProcessing
+3938175#: INFO: [ FDTReaderSession ] No post processing filters defined/processed.
+3938175#: 
+3938175#:  [ Mon Jun 20 23:57:37 PDT 2016 ]  FDT Session finished with errors: 
+3938175#: ControlChannel is down
+3938175#: 
+3938175#: java.io.EOFException
+3938175#: 	at java.io.ObjectInputStream$BlockDataInputStream.peekByte(ObjectInputStream.java:2603)
+3938175#: 	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1317)
+3938175#: 	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:369)
+3938175#: 	at lia.util.net.copy.transport.ControlChannel.run(ControlChannel.java:449)
+3938175#: 	at java.lang.Thread.run(Thread.java:701)
+3938175#: 
+3938175#: 

@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "/var/lib/condor/execute/dir_13929/condor_exec.exe", line 165, in <module>
+    main(sys.argv[1:])
+  File "/var/lib/condor/execute/dir_13929/condor_exec.exe", line 161, in main
+    performPlacement(inputfile,outputfile)
+  File "/var/lib/condor/execute/dir_13929/condor_exec.exe", line 124, in performPlacement
+    pMover.server()
+  File "/var/lib/condor/execute/dir_13929/IperfMover.py", line 65, in server
+    self.run()
+  File "/var/lib/condor/execute/dir_13929/DataMover.py", line 152, in run
+    errhandler=self.stderrHandler)
+  File "/var/lib/condor/execute/dir_13929/TimedExec.py", line 169, in runTimedCmd
+    outhandler(proc.pid, line)
+  File "/var/lib/condor/execute/dir_13929/IperfMover.py", line 40, in iperfout
+    self.delta = float(interval[1])-float(interval[0])
+IndexError: list index out of range

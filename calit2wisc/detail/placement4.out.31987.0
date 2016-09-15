@@ -1,0 +1,62 @@
+CondorChirp out = ['/opt/condor/libexec\n']
+CondorChirp err = []
+Input file is: /home/idpl/1G
+Output file is: 1G
+CondorChirp out = ['/opt/condor/libexec\n']
+CondorChirp err = []
+CondorChirp out = ['/opt/condor/libexec\n']
+CondorChirp err = []
+CondorChirp out = ['/opt/condor/libexec\n']
+CondorChirp err = []
+CondorChirp out = ['/opt/condor/libexec\n']
+CondorChirp err = []
+CondorChirp out = ['/opt/condor/libexec\n']
+CondorChirp err = []
+flashio-osg.calit2.optiputer.net(2101799): ------------------------------------------------------------
+flashio-osg.calit2.optiputer.net(2101799): Client connecting to komatsu.chtc.wisc.edu, TCP port 5001
+flashio-osg.calit2.optiputer.net(2101799): TCP window size: 92.6 KByte (default)
+flashio-osg.calit2.optiputer.net(2101799): ------------------------------------------------------------
+flashio-osg.calit2.optiputer.net(2101799): [  3] local 67.58.50.61 port 46523 connected with 128.104.153.60 port 5001
+flashio-osg.calit2.optiputer.net(2101799): [ ID] Interval       Transfer     Bandwidth
+flashio-osg.calit2.optiputer.net(2101799): [  3]  0.0-20.9 sec  451840 KBytes  176711 Kbits/sec
+client:  ['-jar', 'fdt.jar', '-noupdates', '-p', '5001', '-c', 'komatsu.chtc.wisc.edu', '/home/idpl/1G', '-d', '.']
+setting timed cmd input to be a file type
+flashio-osg.calit2.optiputer.net(2101849): 
+flashio-osg.calit2.optiputer.net(2101849): 
+flashio-osg.calit2.optiputer.net(2101849): FDT [ 0.20.0-201407152021 ] STARTED ... 
+flashio-osg.calit2.optiputer.net(2101849): 
+flashio-osg.calit2.optiputer.net(2101849): 
+flashio-osg.calit2.optiputer.net(2101849): FDT uses *blocking* I/O mode.
+flashio-osg.calit2.optiputer.net(2101849): 06/03 09:55:50	Net Out: 444.620 Mb/s	Avg: 444.620 Mb/s
+flashio-osg.calit2.optiputer.net(2101849): 06/03 09:55:55	Net Out: 385.742 Mb/s	Avg: 415.175 Mb/s
+flashio-osg.calit2.optiputer.net(2101849): 06/03 09:56:00	Net Out: 223.149 Mb/s	Avg: 351.152 Mb/s
+flashio-osg.calit2.optiputer.net(2101849): 06/03 09:56:05	Net Out: 303.684 Mb/s	Avg: 339.269 Mb/s 89.70% ( 02s )
+flashio-osg.calit2.optiputer.net(2101849): 06/03 09:56:10	Net Out: 171.103 Mb/s	Avg: 305.636 Mb/s 99.90% ( 00s )
+flashio-osg.calit2.optiputer.net(2101849): 06/03 09:56:15	Net Out: 1.677 Mb/s	Avg: 254.976 Mb/s 100.00% ( 00s )
+flashio-osg.calit2.optiputer.net(2101849): 06/03 09:56:20	Net Out: 0.000 b/s	Avg: 218.551 Mb/s 100.00% ( 00s )
+flashio-osg.calit2.optiputer.net(2101849): 
+flashio-osg.calit2.optiputer.net(2101849): 
+flashio-osg.calit2.optiputer.net(2101849): FDTReaderSession ( 5069dd69-dbb2-4b86-ad95-d66659edc86c ) final stats:
+flashio-osg.calit2.optiputer.net(2101849):  Started: Sun Mar 06 09:55:40 PST 2016
+flashio-osg.calit2.optiputer.net(2101849):  Ended:   Sun Mar 06 09:56:24 PST 2016
+flashio-osg.calit2.optiputer.net(2101849):  Transfer period:   43s
+flashio-osg.calit2.optiputer.net(2101849):  TotalBytes: 1048576000
+flashio-osg.calit2.optiputer.net(2101849):  TotalNetworkBytes: 1048576000
+flashio-osg.calit2.optiputer.net(2101849):  Exit Status: OK
+flashio-osg.calit2.optiputer.net(2101849): 
+flashio-osg.calit2.optiputer.net(2101849):  [ Sun Mar 06 09:56:25 PST 2016 ] - GracefulStopper hook started ... Waiting for the cleanup to finish
+flashio-osg.calit2.optiputer.net(2101849):  [ Sun Mar 06 09:56:25 PST 2016 ]  - GracefulStopper hook finished!
+flashio-osg.calit2.optiputer.net(2101849): 
+flashio-osg.calit2.optiputer.net(2101849):  [ Sun Mar 06 09:56:25 PST 2016 ]  FDT Session finished OK.
+flashio-osg.calit2.optiputer.net(2101849): 
+key is ''ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEApVTgQEtH304igQsFfAw8uksAuN8RJz4Q6SKaE959Te0OJnV0d30onEWtG8iacKXoA6Qd+UPHRw8y7lfhgMKKR7h6+18Cc3KcvwANFv49+KnE8bZ4IOoTTuLD3VW9oDtYoXvUoW1cQySEUBYVLo9moXdHTozPzmd0sYd95iuNnuRrwwM62UhK1yq7A93URiIjV6+m5w6FCXMo+RIXYmBOyG/vyn4ljTZuuKCeEyi7f7K/a27Cs85lHlSWJI3XWCBHnurLksDSatoirmrgkXPZdcd4OQNyAvxfAsJLc71RiuVVWcWQqIz+C7fvRZrNcDNzh9fEsPqpd8+SmfEewR99HQ== nobody@flashio-osg.calit2.optiputer.net''
+client:  ['-o', 'StrictHostKeyChecking=no', '-i', '/var/opt/condor/execute/dir_2100882/tmp7SuqjD', '-P', '5001', '/home/idpl/1G', "slot4@komatsu.chtc.wisc.edu:'/var/lib/condor/execute/dir_1689973/1G'"]
+setting timed cmd input to be a file type
+setting timed cmd input to be a file type
+flashio-osg.calit2.optiputer.net(2102163): ------------------------------------------------------------
+flashio-osg.calit2.optiputer.net(2102163): Client connecting to komatsu.chtc.wisc.edu, TCP port 5001
+flashio-osg.calit2.optiputer.net(2102163): TCP window size: 92.6 KByte (default)
+flashio-osg.calit2.optiputer.net(2102163): ------------------------------------------------------------
+flashio-osg.calit2.optiputer.net(2102163): [  3] local 67.58.50.61 port 46730 connected with 128.104.153.60 port 5001
+flashio-osg.calit2.optiputer.net(2102163): [ ID] Interval       Transfer     Bandwidth
+flashio-osg.calit2.optiputer.net(2102163): [  3]  0.0-20.4 sec  382976 KBytes  154144 Kbits/sec

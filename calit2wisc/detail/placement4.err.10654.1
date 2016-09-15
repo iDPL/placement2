@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/var/lib/condor/execute/dir_18651/condor_exec.exe", line 165, in <module>
+    main(sys.argv[1:])
+  File "/var/lib/condor/execute/dir_18651/condor_exec.exe", line 161, in main
+    performPlacement(inputfile,outputfile)
+  File "/var/lib/condor/execute/dir_18651/condor_exec.exe", line 51, in performPlacement
+    ChirpTools.ChirpInfo("netcat")),
+  File "/var/lib/condor/execute/dir_18651/ChirpTools.py", line 9, in __init__
+    self.chirp = CondorTools.CondorChirp()
+  File "/var/lib/condor/execute/dir_18651/CondorTools.py", line 12, in __init__
+    raise IDPLExecption.CondorConfigValException("Chirp Init")
+NameError: global name 'IDPLExecption' is not defined

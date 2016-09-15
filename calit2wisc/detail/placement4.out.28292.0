@@ -1,0 +1,55 @@
+CondorChirp out = ['/opt/condor/libexec\n']
+CondorChirp err = []
+Input file is: /home/idpl/1G
+Output file is: 1G
+CondorChirp out = ['/opt/condor/libexec\n']
+CondorChirp err = []
+CondorChirp out = ['/opt/condor/libexec\n']
+CondorChirp err = []
+CondorChirp out = ['/opt/condor/libexec\n']
+CondorChirp err = []
+CondorChirp out = ['/opt/condor/libexec\n']
+CondorChirp err = []
+CondorChirp out = ['/opt/condor/libexec\n']
+CondorChirp err = []
+flashio-osg.calit2.optiputer.net(2877576): ------------------------------------------------------------
+flashio-osg.calit2.optiputer.net(2877576): Client connecting to komatsu.chtc.wisc.edu, TCP port 5001
+flashio-osg.calit2.optiputer.net(2877576): TCP window size: 92.6 KByte (default)
+flashio-osg.calit2.optiputer.net(2877576): ------------------------------------------------------------
+flashio-osg.calit2.optiputer.net(2877576): [  3] local 67.58.50.61 port 3220 connected with 128.104.153.60 port 5001
+flashio-osg.calit2.optiputer.net(2877576): [ ID] Interval       Transfer     Bandwidth
+flashio-osg.calit2.optiputer.net(2877576): [  3]  0.0-21.6 sec  126080 KBytes  47746 Kbits/sec
+client:  ['-jar', 'fdt.jar', '-noupdates', '-p', '5001', '-c', 'komatsu.chtc.wisc.edu', '/home/idpl/1G', '-d', '.']
+setting timed cmd input to be a file type
+flashio-osg.calit2.optiputer.net(2877636): 
+flashio-osg.calit2.optiputer.net(2877636): 
+flashio-osg.calit2.optiputer.net(2877636): FDT [ 0.20.0-201407152021 ] STARTED ... 
+flashio-osg.calit2.optiputer.net(2877636): 
+flashio-osg.calit2.optiputer.net(2877636): 
+flashio-osg.calit2.optiputer.net(2877636): FDT uses *blocking* I/O mode.
+flashio-osg.calit2.optiputer.net(2877636): 08/02 13:55:51	Net Out: 481.532 Mb/s	Avg: 481.532 Mb/s
+flashio-osg.calit2.optiputer.net(2877636): 08/02 13:55:56	Net Out: 407.545 Mb/s	Avg: 444.531 Mb/s
+flashio-osg.calit2.optiputer.net(2877636): 08/02 13:56:01	Net Out: 142.614 Mb/s	Avg: 343.883 Mb/s
+flashio-osg.calit2.optiputer.net(2877636): 08/02 13:56:06	Net Out: 216.438 Mb/s	Avg: 312.010 Mb/s 99.80% ( 00s )
+flashio-osg.calit2.optiputer.net(2877636): 08/02 13:56:11	Net Out: 3.355 Mb/s	Avg: 250.279 Mb/s 100.00% ( 00s )
+flashio-osg.calit2.optiputer.net(2877636): 08/02 13:56:16	Net Out: 0.000 b/s	Avg: 208.566 Mb/s 100.00% ( 00s )
+flashio-osg.calit2.optiputer.net(2877636): 
+flashio-osg.calit2.optiputer.net(2877636): 
+flashio-osg.calit2.optiputer.net(2877636): FDTReaderSession ( 6ad3e29a-761d-4f74-a221-7ceef93f4fe7 ) final stats:
+flashio-osg.calit2.optiputer.net(2877636):  Started: Mon Feb 08 13:55:41 PST 2016
+flashio-osg.calit2.optiputer.net(2877636):  Ended:   Mon Feb 08 13:56:17 PST 2016
+flashio-osg.calit2.optiputer.net(2877636):  Transfer period:   35s
+flashio-osg.calit2.optiputer.net(2877636):  TotalBytes: 1048576000
+flashio-osg.calit2.optiputer.net(2877636):  TotalNetworkBytes: 1048576000
+flashio-osg.calit2.optiputer.net(2877636):  Exit Status: OK
+flashio-osg.calit2.optiputer.net(2877636): 
+flashio-osg.calit2.optiputer.net(2877636):  [ Mon Feb 08 13:56:18 PST 2016 ] - GracefulStopper hook started ... Waiting for the cleanup to finish
+flashio-osg.calit2.optiputer.net(2877636):  [ Mon Feb 08 13:56:18 PST 2016 ]  - GracefulStopper hook finished!
+flashio-osg.calit2.optiputer.net(2877636): 
+flashio-osg.calit2.optiputer.net(2877636):  [ Mon Feb 08 13:56:18 PST 2016 ]  FDT Session finished OK.
+flashio-osg.calit2.optiputer.net(2877636): 
+key is ''ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAxx+PY1ABbVSFMZFdgGphPYcedJinSis9mSwaH15arVzqualWNEBtE2oSJzJxDl2DAxBkdyQujCKA3AbuCgU0CAzm/jruVqN7Y9XQRGwPSXUe+NtMEZV2dEOwaG0Bzpnk5HPHBYZZn+E9mochrHwgtoV41hKI2UicHFk+uN8xIikMaGiJW2mVcgRItdsK83KmTPWNJ8pqvUJRfF2eeIms/+H2AZHiumyZptfIJjFtl0e+XRmpmk0Rz2RgDe8nst7H6ENejB7nHte7IVtmtlzaKe0AMJxqU9YlaCRZZABFgemJ7SgasIxBKiEOrErC5SrBg4KtTs8hREkNCZnHhj+T9w== nobody@flashio-osg.calit2.optiputer.net''
+client:  ['-o', 'StrictHostKeyChecking=no', '-i', '/var/opt/condor/execute/dir_2876503/tmp6X_KPh', '-P', '5001', '/home/idpl/1G', "slot4@komatsu.chtc.wisc.edu:'/var/lib/condor/execute/dir_1098748/1G'"]
+setting timed cmd input to be a file type
+setting timed cmd input to be a file type
+Client had Exception: IDPLException.CondorChirpGetException(netcatMD5):

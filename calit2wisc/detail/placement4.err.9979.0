@@ -1,0 +1,47 @@
+18007#: Sep 29, 2015 5:55:38 PM lia.util.net.common.Config <init>
+18007#: INFO: Using lia.util.net.copy.PosixFSFileChannelProviderFactory as FileChannelProviderFactory
+18007#: Sep 29, 2015 5:55:38 PM lia.util.net.common.Config <init>
+18007#: INFO: FDT started in client mode
+18007#: Sep 29, 2015 5:55:39 PM lia.util.net.copy.transport.ControlChannel initStreams
+18007#: INFO: NEW CONTROL stream for cf307c12-ce73-42ef-8bff-f326fdb18739 initialized 
+18007#: Sep 29, 2015 5:55:39 PM lia.util.net.copy.transport.ControlChannel initStreams
+18007#: INFO: App KeepAlive [ 120 second(s) ] enabled for control channel. Local FDTVersion [0.20.0-2014-07-15], Remote FDTVersion [0.20.0-2014-07-15]
+18007#: Sep 29, 2015 5:55:39 PM lia.util.net.copy.transport.ControlChannel$ControlChannelPingerTask <init>
+18007#: INFO: [ ControlChannelPingerTask ] initialized
+18007#: Sep 29, 2015 5:55:39 PM lia.util.net.copy.FDTReaderSession internalInit
+18007#: INFO: [ FDTReaderSession ] No pre processing filters defined/processed.
+18007#: Sep 29, 2015 5:55:40 PM lia.util.net.copy.transport.SpeedLimitManager addLimiter
+18007#: INFO:  Adding SpeedLimiterTask for lia.util.net.copy.transport.TCPSessionWriter@4103bc02 delay: 300 ms
+18007#: Sep 29, 2015 5:55:40 PM lia.util.net.copy.FDTReaderSession startReading
+18007#: INFO:  Started DiskReaderTasks for the following partions [ 2179 ] for FDTSession: cf307c12-ce73-42ef-8bff-f326fdb18739
+18007#: Sep 29, 2015 5:55:40 PM lia.util.net.copy.transport.TCPTransportProvider tryToConnect
+18007#: INFO: Requested window size -1. Using window size: 47400
+18007#: Sep 29, 2015 5:55:46 PM lia.util.net.copy.FDTReaderSession handleEndFDTSession
+18007#: INFO: [ FDTReaderSession ] Remote FDTWriterSession for session [ cf307c12-ce73-42ef-8bff-f326fdb18739 ] finished OK!
+18007#: Sep 29, 2015 5:55:49 PM lia.util.net.copy.FDTReaderSession doPostProcessing
+18007#: INFO: [ FDTReaderSession ] Post Processing started
+18007#: Sep 29, 2015 5:55:49 PM lia.util.net.copy.FDTReaderSession doPostProcessing
+18007#: INFO: [ FDTReaderSession ] No post processing filters defined/processed.
+18091#: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+18091#: @    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+18091#: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+18091#: IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+18091#: Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+18091#: It is also possible that the RSA host key has just been changed.
+18091#: The fingerprint for the RSA key sent by the remote host is
+18091#: 72:00:f3:ff:6f:47:b7:e9:85:82:08:7d:b0:09:ad:37.
+18091#: Please contact your system administrator.
+18091#: Add correct host key in /export/home/condorSLOT4/.ssh/known_hosts to get rid of this message.
+18091#: Offending key in /export/home/condorSLOT4/.ssh/known_hosts:1
+18091#: Password authentication is disabled to avoid man-in-the-middle attacks.
+18091#: Keyboard-interactive authentication is disabled to avoid man-in-the-middle attacks.
+18091#: Environment:
+18091#:   USER=slot4
+18091#:   LOGNAME=slot4
+18091#:   HOME=/var/lib/condor/execute/slot4
+18091#:   PATH=/usr/local/bin:/bin:/usr/bin
+18091#:   MAIL=/var/mail/slot4
+18091#:   SHELL=/bin/bash
+18091#:   SSH_CLIENT=67.58.50.61 40029 5001
+18091#:   SSH_CONNECTION=67.58.50.61 40029 128.104.153.60 5001
+18091#: Could not chdir to home directory /var/lib/condor/execute/slot4: No such file or directory

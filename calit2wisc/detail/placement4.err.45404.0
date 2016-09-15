@@ -1,0 +1,55 @@
+3696421#: Jun 19, 2016 5:55:39 AM lia.util.net.common.Config <init>
+3696421#: INFO: Using lia.util.net.copy.PosixFSFileChannelProviderFactory as FileChannelProviderFactory
+3696421#: Jun 19, 2016 5:55:39 AM lia.util.net.common.Config <init>
+3696421#: INFO: FDT started in client mode
+3696421#: Jun 19, 2016 5:55:40 AM lia.util.net.copy.transport.ControlChannel initStreams
+3696421#: INFO: NEW CONTROL stream for 745df9bb-9d48-4782-8c4c-9b3395b953c4 initialized 
+3696421#: Jun 19, 2016 5:55:40 AM lia.util.net.copy.transport.ControlChannel initStreams
+3696421#: INFO: App KeepAlive [ 120 second(s) ] enabled for control channel. Local FDTVersion [0.20.0-2014-07-15], Remote FDTVersion [0.20.0-2014-07-15]
+3696421#: Jun 19, 2016 5:55:40 AM lia.util.net.copy.transport.ControlChannel$ControlChannelPingerTask <init>
+3696421#: INFO: [ ControlChannelPingerTask ] initialized
+3696421#: Jun 19, 2016 5:55:40 AM lia.util.net.copy.FDTReaderSession internalInit
+3696421#: INFO: [ FDTReaderSession ] No pre processing filters defined/processed.
+3696421#: Jun 19, 2016 5:55:41 AM lia.util.net.copy.transport.SpeedLimitManager addLimiter
+3696421#: INFO:  Adding SpeedLimiterTask for lia.util.net.copy.transport.TCPSessionWriter@7e4c974d delay: 300 ms
+3696421#: Jun 19, 2016 5:55:41 AM lia.util.net.copy.FDTReaderSession startReading
+3696421#: INFO:  Started DiskReaderTasks for the following partions [ 2051 ] for FDTSession: 745df9bb-9d48-4782-8c4c-9b3395b953c4
+3696421#: Jun 19, 2016 5:55:41 AM lia.util.net.copy.transport.TCPTransportProvider tryToConnect
+3696421#: INFO: Requested window size -1. Using window size: 47400
+3696421#: Jun 19, 2016 5:55:45 AM lia.util.net.copy.FDTReaderSession handleEndFDTSession
+3696421#: INFO: [ FDTReaderSession ] Remote FDTWriterSession for session [ 745df9bb-9d48-4782-8c4c-9b3395b953c4 ] finished OK!
+3696421#: Jun 19, 2016 5:55:48 AM lia.util.net.common.Utils createOrGetRWFile
+3696421#: WARNING: Cannot create /.fdt/update.properties
+3696421#: java.io.IOException: No such file or directory
+3696421#: 	at java.io.UnixFileSystem.createFileExclusively(Native Method)
+3696421#: 	at java.io.File.createNewFile(File.java:959)
+3696421#: 	at lia.util.net.common.Utils.createOrGetRWFile(Utils.java:796)
+3696421#: 	at lia.util.net.common.Utils.updateTotalContor(Utils.java:898)
+3696421#: 	at lia.util.net.common.Utils.updateTotalReadContor(Utils.java:1017)
+3696421#: 	at lia.util.net.copy.FDTReaderSession.finalCleanup(FDTReaderSession.java:625)
+3696421#: 	at lia.util.net.copy.FDTReaderSession.access$000(FDTReaderSession.java:46)
+3696421#: 	at lia.util.net.copy.FDTReaderSession$2.run(FDTReaderSession.java:763)
+3696421#: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+3696421#: 	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+3696421#: 	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+3696421#: 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$101(ScheduledThreadPoolExecutor.java:165)
+3696421#: 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:266)
+3696421#: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1146)
+3696421#: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+3696421#: 	at java.lang.Thread.run(Thread.java:701)
+3696421#: Jun 19, 2016 5:55:48 AM lia.util.net.copy.FDTReaderSession doPostProcessing
+3696421#: INFO: [ FDTReaderSession ] Post Processing started
+3696421#: Jun 19, 2016 5:55:48 AM lia.util.net.copy.FDTReaderSession doPostProcessing
+3696421#: INFO: [ FDTReaderSession ] No post processing filters defined/processed.
+3696535#: Could not create directory '/.ssh'.
+3696535#: Failed to add the host to the list of known hosts (/.ssh/known_hosts).
+3696535#: Environment:
+3696535#:   USER=slot4
+3696535#:   LOGNAME=slot4
+3696535#:   HOME=/var/lib/condor/execute/slot4
+3696535#:   PATH=/usr/local/bin:/bin:/usr/bin
+3696535#:   MAIL=/var/mail/slot4
+3696535#:   SHELL=/bin/bash
+3696535#:   SSH_CLIENT=2607:f720:1700:31d::61 63944 5001
+3696535#:   SSH_CONNECTION=2607:f720:1700:31d::61 63944 2607:f388:107c:502::c 5001
+3696535#: Could not chdir to home directory /var/lib/condor/execute/slot4: No such file or directory
